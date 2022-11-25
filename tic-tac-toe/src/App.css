@@ -1,0 +1,67 @@
+body {
+    margin: 20px;
+    font-size: 30px;
+    background-color: rgb(247, 224, 247);
+}
+
+button {
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgb(153, 153, 153);
+}
+
+button:hover {
+    background-color: rgba(245, 245, 245, 0.767);
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(0.5px);
+    box-shadow: 1px 1px 3px rgb(153, 153, 153)
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.game-board {
+    padding: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(153, 153, 153);
+}
+
+.status {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.square {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 1px;
+    margin-top: 1px;
+    padding: 0;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.square:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
